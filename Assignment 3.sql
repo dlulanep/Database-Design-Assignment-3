@@ -1,11 +1,14 @@
-CREATE database Student;
-USE student;
-CREATE table Student_no;
+CREATE database Student_Records;
+USE student_Records;
+CREATE TABLE student (
+    name VARCHAR(100),
+    age int,
+    gender VARCHAR(10)
+);
+INSERT INTO Student (NAME, AGE, Gender) VALUES
+	("Jane", "21", "Female"),
+	("Rob", "19", "Male"),
+    ("SOL", "23", "Other");
+    
+    
 
-CREATE table Student_name;
-
-CREATE table course
-INSERT COL(
-name (100);
-age int(2)
-gender varchar(String, )
